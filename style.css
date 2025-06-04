@@ -1,26 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    text-align: center;
+    background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    padding: 40px;
 }
 
-h1 {
-    color: #004080;
-    margin-top: 30px;
+.contenedor-horizontal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
-p {
-    font-size: 18px;
+.contenedor-horizontal div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 img {
-    width: 200px;
+    width: 150px;
     height: auto;
-    margin: 10px;
-    border: 2px solid #ccc;
     border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
 }
