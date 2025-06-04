@@ -1,11 +1,40 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #b7afd0;
-    margin: 0;
-    padding: 40px;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #c0d3de;
 }
 
-.contenedor-horizontal {
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.logo-box {
+  background-color: rgb(213, 217, 223);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 45%; /* O 300px fijo si preferís */
+  transition: transform 0.3s ease;
+}
+
+.logo-box:hover {
+  transform: scale(1.03);
+}
+
+.logo-box img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* .contenedor-horizontal {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,7 +48,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
+} */
 
 img {
     width: 150px;
